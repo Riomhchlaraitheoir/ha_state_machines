@@ -10,3 +10,4 @@ async def async_setup_entry(hass: HomeAssistant, config_entry: ConfigEntry):
     data = hass.data.setdefault(DOMAIN, {})
 
     # config_entry.add_update_listener() TODO
+    return True
