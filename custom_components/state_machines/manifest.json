@@ -1,0 +1,8 @@
+{
+  "domain": "state_machines",
+  "name": "State Machines",
+  "version": "0.1.0",
+  "integration_type": "helper",
+  "codeowners": ["Riomhchlaraitheoir"],
+  "config_flow": true
+}
