@@ -26,7 +26,7 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         )
 
     def async_get_options_flow(config_entry: ConfigEntry) -> OptionsFlow:
-        return OptionsFlow(config_entry)
+        return OptionsFlowHandler(config_entry)
 
 
 class OptionsFlowHandler(OptionsFlow):
