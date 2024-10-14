@@ -41,10 +41,7 @@ class OptionsFlowHandler(OptionsFlow):
             step_id="init",
             data_schema=vol.Schema(
                 {
-                    vol.Required(
-                        "show_things",
-                        default=self.config_entry.options.get("show_things")
-                    ): bool
+                    "states": list[str]
                 }
             )
         )
